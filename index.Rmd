@@ -1,0 +1,14 @@
+---
+title: "My Website"
+---
+
+**What is the difference of overall consumption between three households at 2012_06_27?** -I will use plotly package in R to answer this question
+
+**What is the difference of fridge consumption between three households at 2012_06_27?**
+-I will use altair package in python to answer this question
+
+**A rationale for your design decisions**. 
+
+**-plotly: I firstly use R package "gather" to mutate data:collapse columns into rows in order to combine all household data into one column and therefore I can plot different household in various color.I chose scatter plot because it is easier to find the maximum and minmum and the distribution of each household**
+
+**-altair: I firstly use Python "melt" to mutate data:collapse columns into rows in order to combine all household data into one column and therefore I can plot different household in various color.I parallel three households in a row, so I can compare them horizontally. I chose scatter plot because it is easier to find the maximum and minmum and the distribution of each household**
